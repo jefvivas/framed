@@ -1,0 +1,38 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.form-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+.form {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.input-field {
+  width: 300px;
+  height: 40px;
+  padding: 8px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin: 2px;
+}
+
+.button{
+    height: 40px;
+    width: 316px;
+}
